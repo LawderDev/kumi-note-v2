@@ -5,6 +5,7 @@ analyzer:
     missing_required_param: error
     missing_return: error
     todo: ignore
+    public_member_api_docs: ignore
   exclude:
     - "**/*.g.dart"
     - "**/*.freezed.dart"
@@ -132,7 +133,7 @@ linter:
     - prefer_typing_uninitialized_variables
     - prefer_void_to_null
     - provide_deprecation_message
-    - public_member_api_docs
+    # - public_member_api_docs  # Disabled: Clean Code - code should be self-documenting
     - recursive_getters
     - require_trailing_commas
     - secure_pubspec_urls
