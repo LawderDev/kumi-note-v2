@@ -80,6 +80,22 @@ flutter analyze
 flutter test integration_test/
 ```
 
+## Git Author Configuration
+
+All commits must use the author:
+- **Email:** `kenny.ramin433@gmail.com`
+- **Name:** `Kenny`
+
+```bash
+# Configure git for this project
+git config user.email "kenny.ramin433@gmail.com"
+git config user.name "Kenny"
+
+# Verify configuration
+git config user.email  # Should output: kenny.ramin433@gmail.com
+git config user.name   # Should output: Kenny
+```
+
 ## Development Guidelines
 
 - **Code Style:** Follow `very_good_analysis` linter rules
