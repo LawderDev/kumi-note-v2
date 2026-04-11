@@ -58,9 +58,15 @@ Each feature follows **Clean Architecture layers**:
   - Animation tokens
   - 67 tests passing, 100% linter compliance
 
+- **Story 1.2**: Core Database Infrastructure (PR #2)
+  - Drift ORM configured with SQLite
+  - Notes table (id, title, content, createdAt, updatedAt)
+  - Embeddings table (id, noteId, vector, createdAt) with foreign key
+  - Riverpod database provider
+  - Migration strategy in place
+
 ### 🚧 In Progress
 
-- Database infrastructure (Story 1.2)
 - Note management features
 
 ### 📋 Upcoming

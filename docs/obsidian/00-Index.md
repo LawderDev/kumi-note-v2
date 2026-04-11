@@ -19,7 +19,8 @@ Welcome to the Kumi Note developer documentation. This Obsidian vault contains t
 - [[04-Development/Code-Conventions|Code Conventions]] - Architecture guidelines
 
 ### Changelog
-- [[99-Changelog/2026-04-04-Theme-System|2026-04-04: Theme System]] - Latest changes
+- [[99-Changelog/2026-04-11-Database-Infrastructure|2026-04-11: Database Infrastructure]] - Latest changes
+- [[99-Changelog/2026-04-04-Theme-System|2026-04-04: Theme System]]
 
 ## Documentation Philosophy
 
@@ -31,4 +32,4 @@ This documentation follows **Clean Code principles**:
 
 ---
 
-*Last updated: 2026-04-04*
+*Last updated: 2026-04-11*

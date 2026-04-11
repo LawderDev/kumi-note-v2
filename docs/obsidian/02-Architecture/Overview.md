@@ -559,6 +559,6 @@ features/kumi/
 
 ---
 
-*Last updated: 2026-04-04*  
+*Last updated: 2026-04-11*  
 *Architecture: Feature-Driven + Clean*  
 *Pattern: Presentation → Domain → Data*
