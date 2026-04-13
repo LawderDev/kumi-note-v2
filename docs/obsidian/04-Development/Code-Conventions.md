@@ -7,16 +7,22 @@ This document contains all 40 architecture rules for Kumi Note development. Thes
 ## 1-10: Core Principles
 
 ### Rule 1: Conventions
-**Follow very_good_analysis linter rules strictly.**
+**Follow very_good_analysis linter rules strictly. Zero tolerance: no errors, warnings, or INFO-level lints. All issues must be fixed — no ignore comments allowed.**
 
 ✅ **Good:**
 ```bash
-flutter analyze  # Shows no issues
+flutter analyze  # No issues found
 ```
 
 ❌ **Bad:**
 ```bash
-flutter analyze  # Shows warnings
+flutter analyze  # Shows errors, warnings, or INFO lints
+```
+
+❌ **Also Bad:**
+```dart
+// ignore: prefer_const_constructors  // Never use ignore comments
+MyWidget()
 ```
 
 ---
